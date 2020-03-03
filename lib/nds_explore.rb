@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   # loops over SS' movies and prints each movie in a new line
 row_index = 0
-while row_index <directors_databasedatabase.length
+while row_index < directors_database.length
   movie_index = 0
   while movie_index < directors_database[row_index][:movies].length do
     if directors_database[row_index][:name] == "Stephen Spielberg"
