@@ -17,7 +17,6 @@ while row_index <database.length
     if database[row_index][:name] == "Stephen Spielberg"
     puts "#{database[row_index][:movies][movie_index][:title]}\n"
     end
-
     movie_index += 1
   end
 row_index += 1
